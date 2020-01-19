@@ -4,6 +4,7 @@
 
 body {
     background-image: url(../images/bg.png);
+    overflow-x: hidden;
 }
 
 h5 {
@@ -18,7 +19,7 @@ h5 {
 #title h1 {
     text-align: center;
     background-color: #4cd5f7;
-    margin: 30px 37%;
+    margin: 30px 15%;
     padding: 15px 0;
     font-style: italic;
 }
@@ -53,4 +54,13 @@ h5 {
 
 .crsPic:last-child {
     margin-right: 0;
+}
+
+#randNum,
+#userScore {
+    font-size: 26px;
+}
+
+#results p {
+    margin-bottom: 0;
 }
