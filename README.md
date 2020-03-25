@@ -1,4 +1,6 @@
-# unit-4-game
+# Crystal Collector
+
+This is a game set up on random numbers. You keep clicking until you hit the number goal exactly. Nothing below or above.
 
 Instructions:
 You will be given a random number at the start of the game.
