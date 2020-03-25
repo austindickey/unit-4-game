@@ -11,50 +11,54 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
+    <!-- Title -->
     <section class="row">
-        <div class="col-4"></div>
-        <div class="col-4">
+        <div class="col-lg-3 col-md-1 col-sm-12"></div>
+        <div class="col-lg-6 col-md-10 col-sm-12">
             <div id="title">
                 <h1>Crystal Collector</h1>
             </div>
         </div>
-        <div class="col-4"></div>
+        <div class="col-lg-3 col-md-1 col-sm-12"></div>
     </section>
+    <!-- Instructions -->
     <section class="row">
-        <div class="col-4"></div>
-        <div class="col-4">
+        <div class="col-lg-3 col-md-1 col-sm-12"></div>
+        <div class="col-lg-6 col-md-10 col-sm-12">
             <div id="instructions">
                 <h3>Instructions:</h3>
                 <p>You will be given a random number at the start of the game.</p>
-                <p>There are four crystals below. By clicking on a crystal, you will add a specific amount of points to your total score.</p>
-                <p>You win the game by matching your total score to the random number; you lose the game if your total score goes above the random number.</p>
+                <p>There are four crystals below. By clicking on a crystal, you will add a specific amount of points to your current score.</p>
+                <p>You win the game by matching your current score to the random number; you lose the game if your current score goes above the random number.</p>
                 <p>The value of each crystal is hidden from you, until you click on it.</p>
                 <p>Each time when the game starts, the game will change the values of each crystal.</p>
                 <p>Good luck!</p>
             </div>
         </div>
-        <div class="col-4"></div>
+        <div class="col-lg-3 col-md-1 col-sm-12"></div>
     </section>
+    <!-- Random Number and Game Stats -->
     <section class="row">
-        <div class="col-4"></div>
-        <div class="col-2">
+        <div class="col-lg-3 col-md-3 col-sm-1"></div>
+        <div class="col-lg-3 col-md-3 col-sm-5">
             <div id="RandomNumber">
                 <h5>Random Number:</h5>
                 <p id="randNum"></p>
             </div>
         </div>
-        <div class="col-2">
+        <div class="col-lg-3 col-md-3 col-sm-5">
             <div id="results">
                 <h5>Results:</h5>
                 <p id="wins"></p>
                 <p id="losses"></p>
             </div>
         </div>
-        <div class="col-4"></div>
+        <div class="col-lg-3 col-md-3 col-sm-1"></div>
     </section>
+    <!-- Crystal Imagaes -->
     <section class="row">
-        <div class="col-4"></div>
-        <div class="col-4">
+        <div class="col-lg-3 col-md-1 col-sm-4"></div>
+        <div class="col-lg-6 col-md-10 col-sm-4">
             <div id="crystals">
                 <img id="crystal1" class="crsPic" src="assets/images/crystal1.png" alt="Crystal 1">
                 <img id="crystal2" class="crsPic" src="assets/images/crystal2.png" alt="Crystal 2">
@@ -62,19 +66,26 @@
                 <img id="crystal4" class="crsPic" src="assets/images/crystal4.png" alt="Crystal 4">
             </div>
         </div>
-        <div class="col-4"></div>
+        <div class="col-lg-3 col-md-1 col-sm-4"></div>
     </section>
+    <!-- Current Score -->
     <section class="row">
-        <div class="col-4"></div>
-        <div class="col-4">
+        <div class="col-lg-3 col-md-1 col-sm-12"></div>
+        <div class="col-lg-6 col-md-10 col-sm-12">
             <div id="score">
-                <h5>Total Score:</h5>
+                <h5>Current Score:</h5>
                 <p id="userScore"></p>
             </div>
         </div>
-        <div class="col-4"></div>
+        <div class="col-lg-3 col-md-1 col-sm-12"></div>
     </section>
-    
+    <!-- Footer -->
+    <div id="clearFix"></div>
+
+    <footer>
+        <p>Created by <a href="https://austindickey.github.io/" target="_blank">Austin Dickey</a></p>
+    </footer>
+    <!-- Script CDN's -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="assets/javascript/game.js"></script>
 </body>
